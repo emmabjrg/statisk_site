@@ -8,6 +8,13 @@ body {
     margin: 0;
 }
 
+nav li a {
+    color: white;
+}
+
+nav li {
+    list-style: none;
+}
 
 h1 {
     position: absolute;
