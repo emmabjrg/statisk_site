@@ -1,14 +1,50 @@
 body {
     background-color: #77986A;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
+
 
 .line {
     border-bottom: 1px solid #ffffff;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 3%;
     width: 94%;
 }
 
 .logo_small {
     margin-left: 3%;
+}
+
+.breadcrumbs ul {
+    list-style: none;
+    margin-left: 1px    ;
+    margin-top: 5px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #EBFFE3;
+}
+
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.breadcrumbs li a {
+    color: #EBFFE3;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: 300;
+    font-size: 50px;
 }
