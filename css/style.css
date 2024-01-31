@@ -8,6 +8,7 @@ body {
     margin: 0;
 }
 
+
 h1 {
     position: absolute;
     top: 20%;
@@ -144,12 +145,49 @@ margin: 0;
     margin:2px;
 }
 
+.item_price_prev {
+    color: #cadfc1;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin:2px;
+    text-decoration: line-through;
+}
+
+.item_price_now {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin:2px;
+    font-size: 20px;
+}
+
+.sold_out {
+    opacity: 40%;
+}
+
+.sold_out_logo {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .item_info a {
     color: white;
     font-weight: 700;
 }
 
-
+.sale {
+    left: 60%;
+    top: 92%;
+    background-color: red;
+    color: white;
+    padding: 1%;
+    font-size: 15px;
+    font-weight: 600;
+    width:30px;
+    height:20px;
+    text-align: center;
+}
 
 /*______________PRODUCT______________*/
 
@@ -157,7 +195,7 @@ margin: 0;
     margin: 10%;
     margin-top: 3%;
     display: grid;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
     
 }
 
@@ -243,4 +281,5 @@ dt {
     font-weight: 700;
     margin-top: 6%;
 }
+
 
