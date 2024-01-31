@@ -52,8 +52,8 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-weight: 300;
-    font-size: 50px;
+    font-weight: 400;
+    font-size: 55px;
 }
 
 
@@ -84,6 +84,7 @@ h1 {
 
 .cate_list li a {
     font-size: 25px;
+    font-weight: 300;
     color:#ffffff;
     text-decoration: none;   
     display: block;
@@ -97,12 +98,10 @@ h1 {
 }
 
 #cate_overview {
-position: absolute;
-margin: 0;
-left: 50%;
-transform: translateX(-50%);
-top: 260px;
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 260px;
 }
-
-
 
