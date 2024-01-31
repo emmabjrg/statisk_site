@@ -148,3 +148,52 @@ margin: 0;
     color: white;
     font-weight: 700;
 }
+
+
+
+/*______________PRODUCT______________*/
+
+#product_details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product_info {
+    margin: 10%;
+}
+
+.brand {
+    color:#AFD3A0;
+    text-align: center;
+}
+
+.name_info {
+    color: white;
+    text-align: center;
+}
+
+.price {
+    color: white;
+    text-align: center;
+}
+
+#sizes_container {
+    display: flex;
+    font-size: 0;
+    justify-content: flex-start;
+}
+
+.sizes {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #EBFFE3; /* Ændre farven efter behov */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 800;
+    color: #77986A; /* Ændre skriftfarven efter behov */
+    margin-left: 7px; /* Justerer afstanden mellem cirklerne */
+}
+
