@@ -1,3 +1,14 @@
 body {
     background-color: #77986A;
 }
+
+.line {
+    border-bottom: 1px solid #ffffff;
+    margin-top: 5px;
+    margin-left: 3%;
+    width: 94%;
+}
+
+.logo_small {
+    margin-left: 3%;
+}
