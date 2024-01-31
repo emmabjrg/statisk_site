@@ -216,6 +216,14 @@ margin: 0;
     width: 400px;
 }
 
+#knap a {
+    text-decoration: none;
+}
+
+#knap a:hover {
+    opacity: 50%;
+}
+
 #buy_knap {
     font-weight: 400;
     color: white;
@@ -228,10 +236,11 @@ margin: 0;
 
 dl {
     color: white;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 dt {
     font-weight: 700;
     margin-top: 6%;
 }
+
