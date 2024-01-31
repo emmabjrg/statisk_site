@@ -14,6 +14,13 @@ body {
     width: 94%;
 }
 
+.line_small {
+    border-bottom: 1px solid #ffffff;
+;
+    margin-left: 3%;
+    width: 94%;
+}
+
 .logo_small {
     margin-left: 3%;
 }
@@ -48,3 +55,54 @@ h1 {
     font-weight: 300;
     font-size: 50px;
 }
+
+
+
+
+
+@media screen {
+    
+}
+
+
+.cate_list {
+    color: #EBFFE3;
+}
+
+.cate_list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.cate_list li {
+    list-style: none;
+    margin-bottom: 15px;
+    width: 500px;
+    border-bottom: 1px solid #EBFFE3;
+}
+
+.cate_list li a {
+    font-size: 25px;
+    color:#ffffff;
+    text-decoration: none;   
+    display: block;
+    padding: 10px;
+}
+
+.cate_list li a:hover {
+    color:#FFFFFF;
+    background-color: #AFD3A0;
+    text-decoration: none;   
+}
+
+#cate_overview {
+position: absolute;
+margin: 0;
+left: 50%;
+transform: translateX(-50%);
+top: 260px;
+}
+
+
+
