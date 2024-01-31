@@ -107,12 +107,12 @@ h1 {
     gap: 2em;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 .product_item {
     width: 380px;
     margin: 0;
+    margin-bottom: 10%;
 }
 
 .product_item img {
