@@ -17,7 +17,7 @@ nav li {
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
@@ -121,6 +121,7 @@ h1 {
 
 .product_item img {
     margin: 0;
+    width: 380px;
 }
 
 .item_info {
