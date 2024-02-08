@@ -8,6 +8,8 @@ fetch("https://kea-alt-del.dk/t7/api/products/"+ id )
     .then((data)=>showProduct(data));
 
 function showProduct(product){
+    document.querySelector(".breadcrumbcatego").textContent = 
+        product.category;
     document.querySelector(".name_info").textContent =
         product.productdisplayname;
     document.querySelector(".brand").textContent = 

@@ -18,6 +18,7 @@ function showProduct(product){
     const copy = template.cloneNode(true);
     //ændre indhold
     document.querySelector("h1").textContent=product.category;
+    document.querySelector(".breadcrumbcatego").textContent=product.category;
     copy.querySelector(".item_name").textContent=product.productdisplayname;
     copy.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
     copy.querySelector("#type").textContent=product.articletype;

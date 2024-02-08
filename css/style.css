@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+.breadcrumbs {
+    text-transform:lowercase;
+}
+
 nav li a {
     color: white;
 }
