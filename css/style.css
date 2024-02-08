@@ -104,11 +104,12 @@ h1 {
 
 /*______________PRODUCT LIST______________*/
 
-main {
+#product_list_main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: absolute;
     gap: 2em;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -300,11 +301,13 @@ dt {
 
 /*______________MEDIA SCREEN______________*/
 @media screen and (max-width: 1200px) {
-    #product_list_overview {
-        position: absolute;
-        top: 45%;
+
+
+    #product_list_main {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        position: absolute;
+        top: 40%;
         gap: 2em;
         left: 50%;
         transform: translateX(-50%);
@@ -333,16 +336,15 @@ dt {
         border-bottom: 1px solid #EBFFE3;
     }
 
-    #product_list_overview {
-        position: absolute;
-        top: 45%;
+
+    #product_list_main {
         display: grid;
         grid-template-columns: 1fr;
+        position: absolute;
         gap: 2em;
         left: 50%;
         transform: translateX(-50%);
     }
-
 }
 
 }
