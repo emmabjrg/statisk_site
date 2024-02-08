@@ -17,8 +17,8 @@ nav li {
 }
 
 h1 {
-    position: relative;
-    top: 20%;
+    position: absolute;
+    top: -150px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
@@ -103,15 +103,26 @@ h1 {
 
 
 /*______________PRODUCT LIST______________*/
-#product_list_overview {
-    position: absolute;
-    top: 45%;
+
+main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
     gap: 2em;
     left: 50%;
     transform: translateX(-50%);
 }
+
+#product_list_overview {
+    position: absolute;
+    top: 45%;;   
+    gap: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 .product_item {
     width: 380px;

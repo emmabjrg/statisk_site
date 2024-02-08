@@ -2,7 +2,6 @@ fetch("https://kea-alt-del.dk/t7/api/products")
     .then(res=>res.json())
     .then(data=>showProducts(data))
 
-
 function showProducts(products){
     //looper igennem og kalder showProduct
     products.forEach(showProduct)
