@@ -20,11 +20,11 @@ function showProduct(product){
     copy.querySelector("#type").textContent=product.articletype;
     copy.querySelector("#brand").textContent=product.brandname;
     copy.querySelector("#price").textContent=product.price;
-    if (product.soldout) {
+if (product.soldout) {
         copy.querySelector("article").classList.add("soldOut")
     }
+ 
 
-
-    copy.querySelector(".read_more").setAttribute("href",`product.html?id=${product.id}`);
+copy.querySelector(".read_more").setAttribute("href",`product.html?id=${product.id}`);
     //appende til hvor den skal være i DOM
     document.querySelector("main").appendChild(copy);}
